@@ -22,7 +22,7 @@ const FeaturedPostCard = ({ post }) => (
           unoptimized
           alt={post.author.name}
           height="30"
-          width='30'
+          width="30"
           className="align-middle drop-shadow-lg rounded-full"
           src={post.author.photo.url}
         />
